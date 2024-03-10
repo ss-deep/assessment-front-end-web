@@ -37,7 +37,7 @@ input {
 	padding: 5px;
 	font-size: .8rem;
 	border-radius: 20px;
-	margin-bottom: 5px;
+	margin: 5px;
 }
 button:hover{
 	background-color: #ff5e5e;
@@ -46,8 +46,9 @@ img {
 	max-width: 300px;
 	border-radius: 50%;
 }
-.checkbox-label{
+.checkbox{
 	display: flex;
+	padding: 3px;
 }
 main {
 	height: 600px;
@@ -67,11 +68,27 @@ main {
 #section1{
 	background-color: rgba(246, 180, 57, 0.999);
 	width: 50%;
-	align-items: center;
 }
 #section2{
 	width: 50%;
 }
-p,li{
-	margin: 5px;
+p,li,h2{
+	margin: 3px;
+}
+#neighborhood-info{
+	display: flex;
+	flex-direction: column;
+}
+#neighborhood-header{
+	background-color: rgba(246, 180, 57, 0.999);
+	padding: 15px;
+	text-align: center;
+}
+#neighborhood-info p{
+	padding: 10px;
+}
+.hidden{
+	width: 80%;
+	padding:10px;
+	text-align: center;
 }
